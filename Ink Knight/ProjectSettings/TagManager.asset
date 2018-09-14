@@ -41,3 +41,21 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2082616883
+    locked: 0
+  - name: Floor
+    uniqueID: 2798533879
+    locked: 0
+  - name: Interactables
+    uniqueID: 3598453839
+    locked: 0
+  - name: Enemy
+    uniqueID: 180770287
+    locked: 0
+  - name: Player
+    uniqueID: 3240994601
+    locked: 0
+  - name: UI
+    uniqueID: 3581878779
+    locked: 0
