@@ -3819,7 +3819,7 @@ Prefab:
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
-      objectReference: {fileID: 1401380402}
+      objectReference: {fileID: 1806369809}
     - target: {fileID: 114988696536654134, guid: 3098f30c8e962b647a1b2d6a03cdc484,
         type: 2}
       propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
@@ -7328,11 +7328,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &1401380402 stripped
-Animator:
-  m_CorrespondingSourceObject: {fileID: 95428857250828010, guid: be2920e289935944a80f131752872ee1,
-    type: 2}
-  m_PrefabInternal: {fileID: 859159630}
 --- !u!1 &1404315560
 GameObject:
   m_ObjectHideFlags: 0
@@ -8771,6 +8766,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1806369809 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 95428857250828010, guid: be2920e289935944a80f131752872ee1,
+    type: 2}
+  m_PrefabInternal: {fileID: 859159630}
 --- !u!1 &1821756175
 GameObject:
   m_ObjectHideFlags: 0
