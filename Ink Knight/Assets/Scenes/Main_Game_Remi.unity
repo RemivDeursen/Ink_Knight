@@ -985,7 +985,7 @@ GameObject:
   - component: {fileID: 141143493}
   - component: {fileID: 141143495}
   - component: {fileID: 141143494}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_Rock_Floor3 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1086,7 +1086,7 @@ GameObject:
   - component: {fileID: 142510066}
   - component: {fileID: 142510068}
   - component: {fileID: 142510067}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_Rock_Floor3 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1410,7 +1410,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 190150090}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Row1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1698,7 +1698,7 @@ GameObject:
   - component: {fileID: 279480420}
   - component: {fileID: 279480422}
   - component: {fileID: 279480421}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_Rock_Floor3 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1949,7 +1949,7 @@ GameObject:
   - component: {fileID: 345959736}
   - component: {fileID: 345959738}
   - component: {fileID: 345959737}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_Rock_Floor3 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2875,7 +2875,7 @@ GameObject:
   - component: {fileID: 542028085}
   - component: {fileID: 542028087}
   - component: {fileID: 542028086}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_Rock_FloorCornerInnerRight0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3266,6 +3266,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &598283853 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114808948618318080, guid: 3098f30c8e962b647a1b2d6a03cdc484,
+    type: 2}
+  m_PrefabInternal: {fileID: 706904538}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &602626279
 GameObject:
   m_ObjectHideFlags: 0
@@ -3498,6 +3504,11 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 114242476954658774, guid: 3098f30c8e962b647a1b2d6a03cdc484,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 224354718903197192, guid: 3098f30c8e962b647a1b2d6a03cdc484,
         type: 2}
       propertyPath: m_RootOrder
@@ -3642,6 +3653,152 @@ Prefab:
         type: 2}
       propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: OnRightButtonRelease
+      objectReference: {fileID: 0}
+    - target: {fileID: 223186288667683474, guid: 3098f30c8e962b647a1b2d6a03cdc484,
+        type: 2}
+      propertyPath: m_RenderMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1587288100712544, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1976519880901784, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1896187026678558, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1014555164125302, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1315489988890688, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1679294438832534, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1323593343101394, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1388758835257174, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1972981411256482, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1694219491980694, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1605237030234344, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1394118708592076, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1455645805630436, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1666344767061822, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1554126549591836, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1366835108551086, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114385353769716924, guid: 3098f30c8e962b647a1b2d6a03cdc484,
+        type: 2}
+      propertyPath: m_BlockingMask.m_Bits
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1113495878512476, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1733566753306738, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1646212747402282, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
+      propertyPath: m_Layer
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114242476954658774, guid: 3098f30c8e962b647a1b2d6a03cdc484,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114242476954658774, guid: 3098f30c8e962b647a1b2d6a03cdc484,
+        type: 2}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 223186288667683474, guid: 3098f30c8e962b647a1b2d6a03cdc484,
+        type: 2}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114170956251692098, guid: 3098f30c8e962b647a1b2d6a03cdc484,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 859159634}
+    - target: {fileID: 114170956251692098, guid: 3098f30c8e962b647a1b2d6a03cdc484,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnJumpButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 114170956251692098, guid: 3098f30c8e962b647a1b2d6a03cdc484,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 859159634}
+    - target: {fileID: 114170956251692098, guid: 3098f30c8e962b647a1b2d6a03cdc484,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnAttackButtonRelease
+      objectReference: {fileID: 0}
+    - target: {fileID: 114988696536654134, guid: 3098f30c8e962b647a1b2d6a03cdc484,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 859159634}
+    - target: {fileID: 114988696536654134, guid: 3098f30c8e962b647a1b2d6a03cdc484,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[0].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnAttackButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 114988696536654134, guid: 3098f30c8e962b647a1b2d6a03cdc484,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 859159634}
+    - target: {fileID: 114988696536654134, guid: 3098f30c8e962b647a1b2d6a03cdc484,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OnAttackButtonRelease
+      objectReference: {fileID: 0}
+    - target: {fileID: 114988696536654134, guid: 3098f30c8e962b647a1b2d6a03cdc484,
+        type: 2}
+      propertyPath: m_Delegates.Array.data[1].callback.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3098f30c8e962b647a1b2d6a03cdc484, type: 2}
@@ -3806,7 +3963,7 @@ GameObject:
   - component: {fileID: 726071119}
   - component: {fileID: 726071121}
   - component: {fileID: 726071120}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_Rock_Floor3 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4132,7 +4289,7 @@ GameObject:
   - component: {fileID: 812210807}
   - component: {fileID: 812210809}
   - component: {fileID: 812210808}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_Rock_Floor3 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4458,7 +4615,7 @@ GameObject:
   - component: {fileID: 849363362}
   - component: {fileID: 849363364}
   - component: {fileID: 849363363}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_Rock_FloorCornerInnerLeft2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4613,6 +4770,41 @@ Prefab:
     - target: {fileID: 1023689376821346, guid: be2920e289935944a80f131752872ee1, type: 2}
       propertyPath: m_Layer
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114830224599970540, guid: be2920e289935944a80f131752872ee1,
+        type: 2}
+      propertyPath: swipeText
+      value: 
+      objectReference: {fileID: 1011322360}
+    - target: {fileID: 114830224599970540, guid: be2920e289935944a80f131752872ee1,
+        type: 2}
+      propertyPath: touchText
+      value: 
+      objectReference: {fileID: 598283853}
+    - target: {fileID: 114515318836427910, guid: be2920e289935944a80f131752872ee1,
+        type: 2}
+      propertyPath: keyCountText
+      value: 
+      objectReference: {fileID: 1916707690}
+    - target: {fileID: 114678519667104788, guid: be2920e289935944a80f131752872ee1,
+        type: 2}
+      propertyPath: keyCountText
+      value: 
+      objectReference: {fileID: 1916707690}
+    - target: {fileID: 114830224599970540, guid: be2920e289935944a80f131752872ee1,
+        type: 2}
+      propertyPath: groundLayer.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 212453550943421206, guid: be2920e289935944a80f131752872ee1,
+        type: 2}
+      propertyPath: m_SortingLayerID
+      value: -1053972695
+      objectReference: {fileID: 0}
+    - target: {fileID: 212453550943421206, guid: be2920e289935944a80f131752872ee1,
+        type: 2}
+      propertyPath: m_SortingLayer
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be2920e289935944a80f131752872ee1, type: 2}
@@ -4788,7 +4980,7 @@ GameObject:
   - component: {fileID: 922659899}
   - component: {fileID: 922659901}
   - component: {fileID: 922659900}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_Rock_Floor3 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4889,7 +5081,7 @@ GameObject:
   - component: {fileID: 929395162}
   - component: {fileID: 929395164}
   - component: {fileID: 929395163}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_Rock_Floor3 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5540,6 +5732,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1011322360 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114297096618829826, guid: 3098f30c8e962b647a1b2d6a03cdc484,
+    type: 2}
+  m_PrefabInternal: {fileID: 706904538}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1013138453
 GameObject:
   m_ObjectHideFlags: 0
@@ -6629,7 +6827,7 @@ GameObject:
   - component: {fileID: 1294280618}
   - component: {fileID: 1294280620}
   - component: {fileID: 1294280619}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_Rock_Floor3 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8230,7 +8428,7 @@ GameObject:
   - component: {fileID: 1726250844}
   - component: {fileID: 1726250846}
   - component: {fileID: 1726250845}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_Rock_Floor3 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8396,6 +8594,68 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1779375792
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1779375795}
+  - component: {fileID: 1779375794}
+  - component: {fileID: 1779375793}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1779375793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1779375792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1779375794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1779375792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1779375795
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1779375792}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1797189318
 GameObject:
   m_ObjectHideFlags: 0
@@ -8481,7 +8741,7 @@ GameObject:
   - component: {fileID: 1821756176}
   - component: {fileID: 1821756178}
   - component: {fileID: 1821756177}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_Rock_Floor3 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9001,7 +9261,7 @@ GameObject:
   - component: {fileID: 1903998132}
   - component: {fileID: 1903998134}
   - component: {fileID: 1903998133}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_Rock_Floor0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9167,6 +9427,12 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1916707690 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114721802596796304, guid: 3098f30c8e962b647a1b2d6a03cdc484,
+    type: 2}
+  m_PrefabInternal: {fileID: 706904538}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &1932902008
 GameObject:
   m_ObjectHideFlags: 0
@@ -9218,7 +9484,7 @@ GameObject:
   - component: {fileID: 1933322261}
   - component: {fileID: 1933322263}
   - component: {fileID: 1933322262}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_Rock_Floor3 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9394,7 +9660,7 @@ GameObject:
   - component: {fileID: 1962001498}
   - component: {fileID: 1962001500}
   - component: {fileID: 1962001499}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Tileset_Rock_Floor3
   m_TagString: Untagged
   m_Icon: {fileID: 0}

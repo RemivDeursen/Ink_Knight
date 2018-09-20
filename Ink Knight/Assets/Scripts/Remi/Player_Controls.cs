@@ -5,7 +5,8 @@ using UnityEngine.UI;
 
 public class Player_Controls : MonoBehaviour
 {
-[SerializeField]
+    [SerializeField]
+    public LayerMask groundLayer;
     public Text touchText;
     public Text swipeText;
     private Vector2 BeginSwipe;
@@ -15,7 +16,8 @@ public class Player_Controls : MonoBehaviour
     private Rigidbody2D rb2D;
     private Sprite mySprite;
     private SpriteRenderer sr;
-    public bool isGrounded = false;
+    public bool isGroundedVis = false;
+    //public bool isGrounded = false;
     public Player_Data player_Data;
     void Start()
     {
@@ -27,6 +29,7 @@ public class Player_Controls : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        isGroundedVis = isGrounded();
         if (Input.touchCount > 0 && Input.GetTouch(0).phase == TouchPhase.Moved)
         {
             touchText.text = "Moving";
@@ -66,9 +69,23 @@ public class Player_Controls : MonoBehaviour
     private float speed = 2.5f;
     private float maxSpeed = 5;
     private float timer = 0;
+
+    public bool isGrounded()
+    {
+        Vector2 position = transform.position;
+        Vector2 direction = Vector2.down;
+        float distance = 1f;
+
+        RaycastHit2D hit = Physics2D.Raycast(position, direction, distance, groundLayer);
+        if (hit.collider != null)
+        {
+            return true;
+        }
+        else return false;
+    }
     private void Movement()
     {
-        if (IsJumpButton && isGrounded && velocity.y == 0)
+        if (IsJumpButton && isGrounded() && velocity.y == 0)
         {
             if (IsLeftButton)
             {
@@ -115,11 +132,11 @@ public class Player_Controls : MonoBehaviour
                 velocity.x += speed;
             }
         }
-        if (isGrounded && velocity.y < 0)
+        if (isGrounded() && velocity.y < 0)
         {
             velocity.y = 0;
         }
-        else if (!isGrounded && velocity.y > -10)
+        else if (!isGrounded() && velocity.y > -10)
         {
             velocity.y -= 1f;
         }
@@ -151,8 +168,14 @@ public class Player_Controls : MonoBehaviour
         GetComponent<Animator>().SetTrigger("IsIdle");
     }
 
-    public void OnJumpButton() { IsJumpButton = true; }
-    public void OnJumpButtonRelease() { IsJumpButton = false; }
+    public void OnJumpButton()
+    {
+        IsJumpButton = true;
+    }
+    public void OnJumpButtonRelease()
+    {
+        IsJumpButton = false;
+    }
 
     public void OnAttackButton()
     {
@@ -168,7 +191,8 @@ public class Player_Controls : MonoBehaviour
         if (other.gameObject.layer == LayerMask.NameToLayer("Level"))
         {
             Debug.Log("Enter");
-            isGrounded = true;
+            //isGrounded = true;
+            GetComponent<Animator>().SetBool("IsJumping", false);
         }
     }
     private void OnCollisionExit2D(Collision2D other)
@@ -176,7 +200,8 @@ public class Player_Controls : MonoBehaviour
         if (other.gameObject.layer == LayerMask.NameToLayer("Level"))
         {
             Debug.Log("Exit");
-            isGrounded = false;
+            //isGrounded = false;
+            GetComponent<Animator>().SetBool("IsJumping", true);
         }
     }
 }
